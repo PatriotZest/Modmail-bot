@@ -3,10 +3,9 @@ const client = new discord.Client()
 const { token, prefix, ServerID } = require("./config.json")
 
 client.on("ready", () => {
-console.log("I am ready to receive and Send Mails :D")
+console.log("yes its online");
 
 
-client.user.setActivity("Watching My Dm's :D")
 })
 
 client.on("channelDelete", (channel) => {
